@@ -1,6 +1,9 @@
 // React.js Notes
 
 /*
+  REACT is a declarative JavaScript library for building user
+        interfaces.
+
   Three Design Concepts
     Components - Describe UI with components. Like functions and reusable.
                   Can have private state.
@@ -25,4 +28,10 @@
                               You can use React without JSX, but JSX makes
                               it alot easier and more elegant.
 
+  Lifting State Up - Props
+    When you want to aggregate data from multiple children or to have two child
+    components communicate with each other, move the state upwards so that it
+    lives in the parent component. The parent can then pass the state back down
+    to the children via props, so that the child components are always in sync
+    with each other and with the parent.
 /*
